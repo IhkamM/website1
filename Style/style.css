@@ -110,7 +110,7 @@ body {
 @media screen and (max-width: 700px) {
     .row, .navbar { 
         flex-direction: column;
-        width: auto;
+        width: 100%;
         max-width: 450px;
         height: auto;
     }
