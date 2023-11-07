@@ -108,15 +108,8 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    .row { 
+    .row, .navbar { 
         flex-direction: column;
-    }
-
-    .navbar { 
-        flex-direction: column;
-        width: 100%;
-        max-width: 450px;
-        height: auto;
     }
 
     .header2 {
