@@ -107,9 +107,12 @@ body {
     margin-left: 8px;
 }
 
-@media screen and (max-width: 7g00px) {
+@media screen and (max-width: 700px) {
     .row, .navbar { 
         flex-direction: column;
+        width: 100%;
+        max-width: 450px;
+        height: auto;
     }
 
     .main {
