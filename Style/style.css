@@ -182,7 +182,7 @@ footer .follow li a {
     width: 1000px;
     display: inline-grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 15px;
     margin: 0 auto;
     justify-content: space-evenly;
 }
