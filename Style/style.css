@@ -107,7 +107,7 @@ body {
     margin-left: 8px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 7g00px) {
     .row, .navbar { 
         flex-direction: column;
     }
