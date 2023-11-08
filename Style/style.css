@@ -14,7 +14,7 @@ body {
 
 /* Header/logo Judul */
 .header2 {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: black;
     background-color: rgba(255, 255, 255, 0.2);
@@ -51,7 +51,7 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/kiri kolom */
 .side {
-    flex: 30%;
+    flex: 20%;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
 }
@@ -80,7 +80,7 @@ body {
 
 /* Kolom utama */
 .main {
-    flex: 70%;
+    flex: 75%;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     justify-content: space-evenly;
@@ -180,16 +180,16 @@ footer .follow li a {
 /* box skill */
 .box {
     width: 1000px;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 10px;
     margin: 0 auto;
     justify-content: space-evenly;
 }
 .card {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-color: #fff;
     margin: 0 auto;
     border-radius: 4px;
