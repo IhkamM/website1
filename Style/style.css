@@ -126,9 +126,8 @@ body {
 
     .box {
         width: 100%;
-        max-width: 380px;
+        max-width: 350px;
         height: auto;
-        padding-left: 5px;
     }
 }
 
